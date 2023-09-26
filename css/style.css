@@ -5,6 +5,8 @@
 
 body {
     font-family:'Roboto', sans-serif;
+    /* width: 1120px; use this width to replicate exact design, most likely ipad size    */
+    
     
 }
 
@@ -23,6 +25,7 @@ h1 {
 #logo-container {
     display: inline-block;
     vertical-align: middle;
+    margin-left: 20px;
     
 }
 
@@ -33,37 +36,53 @@ h1 {
 }
 
 main {
-    background-color: rgba(127, 255, 212, 0.24);
+    background-color: #f6f8f9;
     padding-top: 40px;
+    height: 750px;
     
 }
 
 nav {
-    background-color: rgba(250, 128, 114, 0.329);
-    width: 737px;
+    background-color: white;
+    width: 787px;
     height: 50px;
     margin: 0px auto 3px auto;
-    padding: 0 50px;
+    padding: 15px 0px 0px 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.03); 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    line-height: 50px;
 }
 
 #btn-1 {
     background-color: #14aaf5;
-    border: 0;
+    color: white;
+    height: 30px;
+    width: 70px;
     border-radius: 5px;
+    border: 0;
 }
 
 #btn-2 {
-    background-color: #14aaf5;
+    background-color: white;
+    font-weight: 700;
+    color: #c4cbd0;
+    width: 95px;
+    height: 30px;
     border: 0;
     border-radius: 5px;
+    border: 1px solid #c4cbd0;
 }
 
 .container {
-    background-color: rgba(250, 128, 114, 0.329);
+    background-color: white;
     width: 737px;
     height: 586px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 30px 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.03);
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
 }
 
 ul {
